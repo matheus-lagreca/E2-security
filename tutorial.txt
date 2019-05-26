@@ -1,0 +1,24 @@
+python version 3.7.2
+
+
+Using hashlib instead of pycrypto 
+because pycrypto was discontinued in
+the version used in this exercise
+
+https://docs.python.org/3/library/hashlib.html
+
+m = hashlib.sha256(block.encode('utf-8')).digest()
+
+
+
+file shaTest.py
+--testing python hashlib
+--should return sha256 from 'b' and 'a' in hex
+
+file readFIle.py
+--should read the file test.txt 
+--test.txt contains 'a'
+--should return sha from 'a' in hex
+
+
+
